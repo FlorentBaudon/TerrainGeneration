@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/* Public function to generate noise  */
 public static class NoiseGenerator {
 
     public static float[,] generateNoiseMap(int mapWidth, int mapHeight, int seed, float scale, Vector2 position, int octaveNumber, float persistance, float lacunarity)

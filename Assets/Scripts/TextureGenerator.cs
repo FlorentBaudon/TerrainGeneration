@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/* Static Class that provide futions to create textures from color array */ 
+
 public static class TextureGenerator {
 
     public static Texture2D TextureFromColourMap (Color[] colourMap, int width, int height)

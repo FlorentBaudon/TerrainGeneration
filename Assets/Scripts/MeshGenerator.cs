@@ -4,6 +4,8 @@ using UnityEngine;
 
 public static class MeshGenerator {
 
+    /* static function that generate teraain with heightmap */
+
     public static MeshData GenerateTerrainMesh(float[,] heightMap, int intensity)
     {
         int width = heightMap.GetLength(0);
@@ -35,6 +37,8 @@ public static class MeshGenerator {
         return meshData;
     }
 }
+
+/* Class that hold mesh data and create mesh */
 
 public class MeshData
 {
